@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /*display: flex; */
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header h1{
+    /*text-align: center; */ 
+    font-size: 90px;
+    margin: 20px 0 70px;
+    color: #6C63FF;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 640px;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
+
+#insc{
+    position: absolute;
+    height: 21px;
+    left: 196px;
+    top: 445px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    color: #9C9AB6;
+}
+
+.group-3{
+    width: 96px;
+    height: 20px;
+    left: 322px;
+    top: 467px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.group-3 a{
+    position: absolute;
+    width: 146px;
+    height: 46px;
+    left: 310px;
+    top: 508px;
+    color: white;
+    background: #6C63FF;
+    border-radius: 30px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+ 
+
+aside {
+    position: relative;
+    width: 642px;
+    height: 446px;
+    left: 664px;
+    top: -290px;
+}
+
+
